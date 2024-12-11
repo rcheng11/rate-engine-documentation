@@ -97,6 +97,9 @@ $(function(){ initResizable(false); });
   <div class="headertitle"><div class="title">gameobject::GameObject Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>An entity of the game (such as a tile, player etc.)  
+ <a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -135,10 +138,11 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab4c7cd80cbf82754b09ed61dc03996ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><ul>
-<li><a class="el" href="classgameobject_1_1_game_object.html">GameObject</a> is a container of IComponents and ScriptComponents.</li>
+<div class="textblock"><p>An entity of the game (such as a tile, player etc.) </p>
+<ul>
+<li><a class="el" href="classgameobject_1_1_game_object.html" title="An entity of the game (such as a tile, player etc.)">GameObject</a> is a container of IComponents and ScriptComponents.</li>
 <li>IComponents and ScriptComponents are stored as a templated, associative array</li>
-<li>has a boolean <code>mIsActive</code> to determine if the object should remain in the scene next frame </li>
+<li>has a boolean <code>mIsActive</code> to determine if the object should remain in the scene </li>
 </ul>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a466bef69c21c081c01a6bdac4a1a83a3" name="a466bef69c21c081c01a6bdac4a1a83a3"></a>
@@ -189,7 +193,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This is TEMPLATED, accepts any class derived from <a class="el" href="classgameobject_1_1_i_component.html">IComponent</a> Example Usage: obj.AddComponent!Sprite(new Sprite(...)) obj.AddComponent!Position(new Sprite(...)) </p>
+<p>This is TEMPLATED, accepts any class derived from <a class="el" href="classgameobject_1_1_i_component.html" title="Defines a component that does not change the state of the object. Defines a DATA component that DOES ...">IComponent</a> Example Usage: obj.AddComponent!Sprite(new Sprite(...)) obj.AddComponent!Position(new Sprite(...)) </p>
 
 </div>
 </div>
@@ -265,7 +269,7 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This is TEMPLATED, accepts any class derived from <a class="el" href="classgameobject_1_1_i_component.html">IComponent</a> Example Usage: obj.GetComponent!Sprite() obj.GetComponent!Position() </p>
+<p>This is TEMPLATED, accepts any class derived from <a class="el" href="classgameobject_1_1_i_component.html" title="Defines a component that does not change the state of the object. Defines a DATA component that DOES ...">IComponent</a> Example Usage: obj.GetComponent!Sprite() obj.GetComponent!Position() </p>
 
 </div>
 </div>

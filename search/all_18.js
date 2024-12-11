@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['y_0',['y',['../classdatacomponents_1_1_position.html#a05421c07fecc5f83f8c8f257edc00e2d',1,'datacomponents::Position']]],
-  ['yarn_1',['YARN',['../editor__gui_8d.html#a842c5e2e69277690b064bf363c017980a2730f027a46b4998090ead99fe561e77',1,'editor_gui.d']]],
-  ['yunitsize_2',['yUnitSize',['../classgrid_1_1_grid.html#a5fb4a39ee96f06f4da2c041c26cf315d',1,'grid::Grid']]]
+  ['_7ethis_0',['~this',['../structgameapplication_1_1_game_application.html#a6880cd13a3685b29984f347b9f50e8fa',1,'gameapplication::GameApplication::~this()'],['../classscriptcomponents_1_1_move.html#a646056ad279f0a45c114c641d5251eba',1,'scriptcomponents::Move::~this()'],['../classscriptcomponents_1_1_collision.html#aab4cf852b9bca70ef0875749dfb60544',1,'scriptcomponents::Collision::~this()'],['../classscriptcomponents_1_1_input.html#acfb580a48de18f8e7a526279d1d823c5',1,'scriptcomponents::Input::~this()'],['../struct_sound.html#a7ccc1b0c94f2ea1a6751ac51f5dde98b',1,'Sound::~this()'],['../editor__gui_8d.html#a541735bc156b10001581252f1c5d61f1',1,'~this():&#160;editor_gui.d'],['../namespacesdl__abstraction.html#a1c1e8d8a4b9f47bbabc01f7e6b7a5704',1,'sdl_abstraction::~this()']]]
 ];

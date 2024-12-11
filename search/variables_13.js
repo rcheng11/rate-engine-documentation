@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['xpos_0',['xPos',['../editor__gui_8d.html#a6806e78862b165988ca9b855e230084e',1,'editor_gui.d']]]
+  ['y_0',['y',['../classdatacomponents_1_1_position.html#a05421c07fecc5f83f8c8f257edc00e2d',1,'datacomponents::Position']]],
+  ['yunitsize_1',['yUnitSize',['../classgrid_1_1_grid.html#a5fb4a39ee96f06f4da2c041c26cf315d',1,'grid::Grid']]]
 ];

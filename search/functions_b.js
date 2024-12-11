@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['parsejsonfromfile_0',['parseJSONFromFile',['../namespacejsonabstraction.html#a6cec474d8c2c9688a58e991b675b6f77',1,'jsonabstraction']]],
-  ['playercollide_1',['playerCollide',['../classscriptcomponents_1_1_collision.html#aef82a74cb7837c1955803ac42f253e97',1,'scriptcomponents::Collision']]],
-  ['playsound_2',['PlaySound',['../struct_sound.html#a7f9c91aa25f50fb3276e7d4b4af5cac1',1,'Sound']]]
+  ['quitapp_0',['QuitApp',['../editor__gui_8d.html#a671eb09eb1b9edc8a5e6ab3b11167209',1,'QuitApp():&#160;editor_gui.d'],['../json__load__gui_8d.html#af4cba1685a7c46bccc7bbdf863114cee',1,'QuitApp():&#160;json_load_gui.d']]]
 ];

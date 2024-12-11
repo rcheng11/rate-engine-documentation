@@ -5,6 +5,6 @@ var searchData=
   ['addcomponents_2',['addComponents',['../editor__gui_8d.html#ad1ddc01c372954451bf28110c449ffaa',1,'editor_gui.d']]],
   ['addgameobject_3',['addGameObject',['../classscenetree_1_1_scene_tree.html#afa524f2ed0537326fb4484c9fdb18fb3',1,'scenetree::SceneTree']]],
   ['addscript_4',['AddScript',['../classgameobject_1_1_game_object.html#a5857e96bc1e3d21837cc0ee73b501d4b',1,'gameobject::GameObject']]],
-  ['advanceframe_5',['AdvanceFrame',['../editor__gui_8d.html#a0f287e971e83d388ac3704285af27ff9',1,'AdvanceFrame():&#160;editor_gui.d'],['../namespacegameapplication.html#af345f940bf7779d9a37be3724246d9f4',1,'gameapplication::AdvanceFrame()']]],
+  ['advanceframe_5',['AdvanceFrame',['../structgameapplication_1_1_game_application.html#a235a530d49e7a9916d4668be8d0c3755',1,'gameapplication::GameApplication::AdvanceFrame()'],['../editor__gui_8d.html#a0f287e971e83d388ac3704285af27ff9',1,'AdvanceFrame():&#160;editor_gui.d']]],
   ['array_6',['array',['../classsprite_1_1_frames_array.html#a3ae6d388a722c8543a4e078213a03619',1,'sprite::FramesArray']]]
 ];

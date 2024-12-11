@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['fp_0',['fp',['../classsprite_1_1_sprite.html#ad8b2c8e8dd8d62a4289fa7a4da988dd2',1,'sprite::Sprite']]],
-  ['framesmap_1',['framesMap',['../classsprite_1_1_animation.html#a6499e9c2ddcf1c5ed72fe87aafeed633',1,'sprite::Animation']]]
+  ['event_0',['event',['../structgameapplication_1_1_game_application.html#a02f8c828c86b221724cf23feb69ca588',1,'gameapplication::GameApplication::event'],['../editor__gui_8d.html#a6b57f01d3c576db5368dd0efc2f435a4',1,'event:&#160;editor_gui.d']]]
 ];

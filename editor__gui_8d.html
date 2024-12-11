@@ -91,20 +91,13 @@ $(function(){ initResizable(false); });
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">editor_gui.d File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>import std.stdio;</code><br />
-</div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_command.html">Command</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a842c5e2e69277690b064bf363c017980" id="r_a842c5e2e69277690b064bf363c017980"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a842c5e2e69277690b064bf363c017980">ObjectType</a> { <br />
@@ -157,8 +150,23 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a852c88038a77d1ed297f4d66533eee21" id="r_a852c88038a77d1ed297f4d66533eee21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a852c88038a77d1ed297f4d66533eee21">resources</a> [&quot;dog&quot;] = [&quot;./assets/sprites/dog.bmp&quot;, &quot;./assets/sprites/dog.json&quot;, &quot;WASD&quot;]</td></tr>
-<tr class="separator:a852c88038a77d1ed297f4d66533eee21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afff877bc295f15317e646b87b04fe759" id="r_afff877bc295f15317e646b87b04fe759"><td class="memItemLeft" align="right" valign="top">SDL_Window *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afff877bc295f15317e646b87b04fe759">mWindow</a> = null</td></tr>
+<tr class="memdesc:afff877bc295f15317e646b87b04fe759"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the level editor window and prebuilt entities to add to the screen.  <br /></td></tr>
+<tr class="separator:afff877bc295f15317e646b87b04fe759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3eaed5b7fddb45af115610c15dd117c" id="r_aa3eaed5b7fddb45af115610c15dd117c"><td class="memItemLeft" align="right" valign="top">SDL_Renderer *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3eaed5b7fddb45af115610c15dd117c">mRenderer</a> = null</td></tr>
+<tr class="separator:aa3eaed5b7fddb45af115610c15dd117c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29ec04cc6211ea640924e119307ece83" id="r_a29ec04cc6211ea640924e119307ece83"><td class="memItemLeft" align="right" valign="top">ResourceManager *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29ec04cc6211ea640924e119307ece83">mResourceManager</a> = null</td></tr>
+<tr class="separator:a29ec04cc6211ea640924e119307ece83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89f8c15edad6f6065a52603e03283b3b" id="r_a89f8c15edad6f6065a52603e03283b3b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89f8c15edad6f6065a52603e03283b3b">mWindowIsRunning</a> = true</td></tr>
+<tr class="separator:a89f8c15edad6f6065a52603e03283b3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b57f01d3c576db5368dd0efc2f435a4" id="r_a6b57f01d3c576db5368dd0efc2f435a4"><td class="memItemLeft" align="right" valign="top">SDL_Event&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b57f01d3c576db5368dd0efc2f435a4">event</a></td></tr>
+<tr class="separator:a6b57f01d3c576db5368dd0efc2f435a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac56e24f7aa1cf721f3489e8f6cf39f1a" id="r_ac56e24f7aa1cf721f3489e8f6cf39f1a"><td class="memItemLeft" align="right" valign="top">Grid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac56e24f7aa1cf721f3489e8f6cf39f1a">sceneGrid</a></td></tr>
+<tr class="separator:ac56e24f7aa1cf721f3489e8f6cf39f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc574565b4b5d03ccc07d3cf39736a69" id="r_afc574565b4b5d03ccc07d3cf39736a69"><td class="memItemLeft" align="right" valign="top">SceneTree&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc574565b4b5d03ccc07d3cf39736a69">mSceneTree</a> = null</td></tr>
+<tr class="separator:afc574565b4b5d03ccc07d3cf39736a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6b7f9e1081978cacfbdd38dcf4439fc" id="r_ad6b7f9e1081978cacfbdd38dcf4439fc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6b7f9e1081978cacfbdd38dcf4439fc">objCount</a> = 0</td></tr>
+<tr class="separator:ad6b7f9e1081978cacfbdd38dcf4439fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7edb889905e76ac6b926c56c7b090be2" id="r_a7edb889905e76ac6b926c56c7b090be2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a842c5e2e69277690b064bf363c017980">ObjectType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7edb889905e76ac6b926c56c7b090be2">currType</a> = <a class="el" href="#a842c5e2e69277690b064bf363c017980ac157bdf0b85a40d2619cbc8bc1ae5fe2">ObjectType.NONE</a></td></tr>
 <tr class="separator:a7edb889905e76ac6b926c56c7b090be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a106473ee1fb1b5d083c7ab16a3a40275" id="r_a106473ee1fb1b5d083c7ab16a3a40275"><td class="memItemLeft" align="right" valign="top">const SDLSupport&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a106473ee1fb1b5d083c7ab16a3a40275">ret</a></td></tr>
@@ -207,6 +215,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Iterates through the scene tree and adds script components based on object type. Used before saving JSON file to load file correctly. </p>
 
 </div>
 </div>
@@ -281,6 +290,7 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Takes in an objectId (object type), parent node type, position component, size component, bitmap path, and animation path. Adds given components to the new game object </p>
 
 </div>
 </div>
@@ -323,6 +333,7 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Takes in a GameObject id and returns its corresponding tag. Needed for correct collision handling and creating JSON file. </p>
 
 </div>
 </div>
@@ -348,6 +359,7 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Handles SDL_QUIT and creates a new object if a tile is pressed on the grid. </p>
 
 </div>
 </div>
@@ -423,6 +435,7 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Initializes GTK and then creates a window with the editor GUI's widgets. </p>
 
 </div>
 </div>
@@ -448,6 +461,7 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Initializes an SDL window if one doesn't exist then advances the frame if it does </p>
 
 </div>
 </div>
@@ -544,14 +558,100 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a852c88038a77d1ed297f4d66533eee21" name="a852c88038a77d1ed297f4d66533eee21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a852c88038a77d1ed297f4d66533eee21">&#9670;&#160;</a></span>resources</h2>
+<a id="a6b57f01d3c576db5368dd0efc2f435a4" name="a6b57f01d3c576db5368dd0efc2f435a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b57f01d3c576db5368dd0efc2f435a4">&#9670;&#160;</a></span>event</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">resources[&quot;grass&quot;] = [&quot;./assets/sprites/dog.bmp&quot;, &quot;./assets/sprites/dog.json&quot;, &quot;WASD&quot;]</td>
+          <td class="memname">SDL_Event event</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa3eaed5b7fddb45af115610c15dd117c" name="aa3eaed5b7fddb45af115610c15dd117c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3eaed5b7fddb45af115610c15dd117c">&#9670;&#160;</a></span>mRenderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Renderer* mRenderer = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a29ec04cc6211ea640924e119307ece83" name="a29ec04cc6211ea640924e119307ece83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29ec04cc6211ea640924e119307ece83">&#9670;&#160;</a></span>mResourceManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ResourceManager* mResourceManager = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afc574565b4b5d03ccc07d3cf39736a69" name="afc574565b4b5d03ccc07d3cf39736a69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc574565b4b5d03ccc07d3cf39736a69">&#9670;&#160;</a></span>mSceneTree</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SceneTree mSceneTree = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afff877bc295f15317e646b87b04fe759" name="afff877bc295f15317e646b87b04fe759"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afff877bc295f15317e646b87b04fe759">&#9670;&#160;</a></span>mWindow</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SDL_Window* mWindow = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Defines the level editor window and prebuilt entities to add to the screen. </p>
+
+</div>
+</div>
+<a id="a89f8c15edad6f6065a52603e03283b3b" name="a89f8c15edad6f6065a52603e03283b3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89f8c15edad6f6065a52603e03283b3b">&#9670;&#160;</a></span>mWindowIsRunning</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mWindowIsRunning = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad6b7f9e1081978cacfbdd38dcf4439fc" name="ad6b7f9e1081978cacfbdd38dcf4439fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6b7f9e1081978cacfbdd38dcf4439fc">&#9670;&#160;</a></span>objCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int objCount = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -566,6 +666,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const SDLSupport ret</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac56e24f7aa1cf721f3489e8f6cf39f1a" name="ac56e24f7aa1cf721f3489e8f6cf39f1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac56e24f7aa1cf721f3489e8f6cf39f1a">&#9670;&#160;</a></span>sceneGrid</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Grid sceneGrid</td>
         </tr>
       </table>
 </div><div class="memdoc">
